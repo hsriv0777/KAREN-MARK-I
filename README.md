@@ -7,7 +7,9 @@ Jarvis is a voice commanding assistant service in Python 3.5+ It can recognize h
 Assistant Skills
 
 ⚫ Opens a web page (e.g 'Jarvis open youtube')
+
 ⚫ Play music in Youtube (e.g 'Jarvis play mozart')
+
 ⚫ Increase/decrease the speakers master volume (also can set max/mute speakers volume) ** (e.g 'Jarvis volume up!')
 ⚫ Opens libreoffice suite applications (calc, writer, impress) (e.g 'Jarvis open calc')
 ⚫ Tells about something, by searching on the internet (e.g 'Jarvis tells me about oranges')
