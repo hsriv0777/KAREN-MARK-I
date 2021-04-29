@@ -10,13 +10,10 @@ import wolframalpha
 import os
 import sys
 import playsound
-from twilio.rest import Client
 import pyjokes
-import pygame
 import socket
 import subprocess
 from plyer import notification
-from googletrans import Translator, constants
 from pprint import pprint
 from bs4 import BeautifulSoup 
 import requests  
@@ -270,17 +267,7 @@ if __name__ == '__main__':
         elif 'okay bye' in query or 'see you again' in query:
             speak('Bye Sir, have a good day.')
             sys.exit()
-                                    
-        elif 'background music' in query or 'music in background' in query:
-            speak('Okay Sir, Playing music in Background!')
-            folder = 'F:\\PRSNLS\\music folder\\'
-            
-            b_music = ['GIRLFRIEND _ JASS MANAK', 'TERE KARKE','YOUMEANIT','Background','Mill Lo Na _ Guri Ft. Sukhe','Mere halat aise hai']
-            pygame.mixer.init()
-            pygame.mixer.music.load(folder + random.choice(b_music) + '.mp3')
-            pygame.mixer.music.set_volume(0.05)
-            pygame.mixer.music.play(-1)
-
+      
         elif'play music' in query or 'change music' in query or 'some music' in query or 'the music' in query:
             playMusic()
 
